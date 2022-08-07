@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Lobster&family=Martel:wght@800&family=Space+Grotesk:wght@400;700&display=swap');
 .navigation{
     
     background-color: #FFD55E;
@@ -5,10 +6,17 @@
     border-bottom-right-radius: 2rem;
 }
 body{
+   
+
+    font-family: 'Space Grotesk', sans-serif;
     height: 100vh;
     /* background-color: #FFD55E; */
     background-image: url(/Images/minions-g0ba91f239_1280.jpg);
     margin: 0;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    
+    
     
 }
 .navigation h1{
@@ -22,24 +30,46 @@ body{
 
 .text-areas{
     display: block;
-    width: 50%;
+    width: 80%;
     height: 30%;
     margin: 2rem auto;
     border: 2px solid #FFD55E;
-    border-top-left-radius: 2rem; 
-    border-bottom-right-radius: 2rem;
+    border-radius: 1.5rem; 
+    padding: 1rem;
+    font-weight: bold;
+   font-size: 16px;
+   font-family: 'Space Grotesk', sans-serif;
+   opacity: 0.8;
+   resize: none;
+   
+   
 }
-.text-areas:focus{
+.text-areas::placeholder{
+    color: grey;
+    
+}
+.output-div{
+   
+   background-color: white;
+   font-style: inherit;
+  
+   
+}
+.output-div p{
+    color: grey;
+   
+}
+/* .text-areas:focus{
     width: 90%;
     transition: 1s;
-}
+} */
 .text-areas:hover{
     border: solid 2px #0C457A;
     transition: 0.5s;
 }
-.text-areas::placeholder{
-    padding: 1rem;
-}
+
+
+
 .footer{
     position: relative;
     bottom: 0%;
@@ -49,24 +79,37 @@ body{
     border-top-left-radius: 2rem;
     border-top-right-radius: 2rem;
 }
-#translate-btn{
-    display: block;
+.button{
+    /* display: block; */
     margin: 0 auto;
     text-align: center;
     width: 10rem;
     height: max-content;
     padding: 1rem;
     border-radius: 2rem;
-    color: #0C457A;
+    
     font-weight: bolder;
-    background-color: #FFD55E;
+    
+    
    
 }
-#translate-btn:focus{
-    background-color: #0C457A;
-    color: #FFD55E;
+#btn-translate{
+
+    color: #0C457A;
+    background-color: #FFD55E;
+
 }
+#btn-reset{
+    color: #FFD55E;
+    background-color: #0C457A;
+}
+.btn-container{
+
+   text-align: center;
+}
+
 .footer-text{
     margin: 0 auto;
     max-width: 600px;
+    font-weight: 600;
 }
