@@ -1,0 +1,72 @@
+.navigation{
+    
+    background-color: #FFD55E;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+body{
+    height: 100vh;
+    /* background-color: #FFD55E; */
+    background-image: url(/Images/minions-g0ba91f239_1280.jpg);
+    margin: 0;
+    
+}
+.navigation h1{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    font-size: 2rem;
+    text-align: center;
+    padding: 1.5rem;
+   
+}
+
+.text-areas{
+    display: block;
+    width: 50%;
+    height: 30%;
+    margin: 2rem auto;
+    border: 2px solid #FFD55E;
+    border-top-left-radius: 2rem; 
+    border-bottom-right-radius: 2rem;
+}
+.text-areas:focus{
+    width: 90%;
+    transition: 1s;
+}
+.text-areas:hover{
+    border: solid 2px #0C457A;
+    transition: 0.5s;
+}
+.text-areas::placeholder{
+    padding: 1rem;
+}
+.footer{
+    position: relative;
+    bottom: 0%;
+    background-color: #FFD55E;
+    padding: 1.5rem;
+    text-align: center;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+#translate-btn{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 10rem;
+    height: max-content;
+    padding: 1rem;
+    border-radius: 2rem;
+    color: #0C457A;
+    font-weight: bolder;
+    background-color: #FFD55E;
+   
+}
+#translate-btn:focus{
+    background-color: #0C457A;
+    color: #FFD55E;
+}
+.footer-text{
+    margin: 0 auto;
+    max-width: 600px;
+}
