@@ -35,38 +35,34 @@ body{
     margin: 2rem auto;
     border: 2px solid #FFD55E;
     border-radius: 1.5rem; 
-    padding: 1rem;
+    padding: 2rem;
     font-weight: bold;
    font-size: 16px;
    font-family: 'Space Grotesk', sans-serif;
    opacity: 0.8;
    resize: none;
    box-sizing: border-box;
-    background-color: rgba(247, 233, 192, 0.1);
-    color: white;
+   background-color: rgba(252, 232, 176, 0.623);
+    
    
    
 }
 .text-areas::placeholder{
-    color: whitesmoke
+    color: rgba(0, 0, 0, 0.664);
     
 }
 .output-div{
    
-    background-color: rgba(252, 231, 171, 0.1);
+    background-color: rgba(252, 232, 176, 0.562);
     font-family: 'Space Grotesk', sans-serif;
-   color: white;
-  
-   
+   color: black;
+   font-weight: bold;
 }
 .output-div p{
-    color: whitesmoke
-   
+    
+    color: rgba(0, 0, 0, 0.664);
 }
-/* .text-areas:focus{
-    width: 90%;
-    transition: 1s;
-} */
+
 .text-areas:hover{
     border: solid 2px #0C457A;
     transition: 0.5s;

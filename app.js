@@ -2,7 +2,7 @@ var input_textarea = document.querySelector("#input-text")
 var output_textarea = document.querySelector("#output")
 var translate_btn = document.querySelector("#btn-translate")
 var reset_btn = document.querySelector("#btn-reset")
-const url = "https://api.funtranslations.com/translate/minion.json"
+const url = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json"
 var requestUrl = ""
 var input = ""
 function constructRequestURL(userInput){
