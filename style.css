@@ -30,7 +30,7 @@ body{
 
 .text-areas{
     display: block;
-    width: 80%;
+    width: 90%;
     height: 30%;
     margin: 2rem auto;
     border: 2px solid #FFD55E;
@@ -41,22 +41,26 @@ body{
    font-family: 'Space Grotesk', sans-serif;
    opacity: 0.8;
    resize: none;
+   box-sizing: border-box;
+    background-color: rgba(247, 233, 192, 0.1);
+    color: white;
    
    
 }
 .text-areas::placeholder{
-    color: grey;
+    color: whitesmoke
     
 }
 .output-div{
    
-   background-color: white;
-   font-style: inherit;
+    background-color: rgba(252, 231, 171, 0.1);
+    font-family: 'Space Grotesk', sans-serif;
+   color: white;
   
    
 }
 .output-div p{
-    color: grey;
+    color: whitesmoke
    
 }
 /* .text-areas:focus{
