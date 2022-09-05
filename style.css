@@ -87,7 +87,7 @@ body{
     height: max-content;
     padding: 1rem;
     border-radius: 2rem;
-    
+    cursor: pointer;
     font-weight: bolder;
     
     

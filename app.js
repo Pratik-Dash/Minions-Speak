@@ -1,7 +1,6 @@
 var input_textarea = document.querySelector("#input-text")
 var output_textarea = document.querySelector("#output")
 var translate_btn = document.querySelector("#btn-translate")
-var reset_btn = document.querySelector("#btn-reset")
 const url = "https://api.funtranslations.com/translate/minion.json"
 var requestUrl = ""
 var input = ""
@@ -13,7 +12,7 @@ function errorHandler(error)
 {
     console.log("Number of request exceeded, please try after an hour",error)
 }
-translate_btn.addEventListener("click",function getText()
+translate_btn.addEventListener("click",() =>
 {
     var userInput = input_textarea.value
     constructRequestURL(userInput)
@@ -22,9 +21,5 @@ translate_btn.addEventListener("click",function getText()
     .then(data => document.querySelector("#output").innerText = data.contents.translated)
     .catch(errorHandler);
 })
-reset_btn.addEventListener("click",(function clear(){
 
-    input_textarea.value = ""
-   
-}))
 
