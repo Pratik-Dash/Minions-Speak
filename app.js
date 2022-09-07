@@ -11,7 +11,7 @@ function constructRequestURL(userInput){
 function errorHandler(error)
 {
     document.querySelector("#output").innerText = "Number of request exceeded, please try after an hour"
-}   document.querySelector("#output").style.color = "red"
+}   
 translate_btn.addEventListener("click",() =>
 {
     var userInput = input_textarea.value
