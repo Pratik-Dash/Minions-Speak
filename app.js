@@ -15,11 +15,15 @@ function errorHandler(error)
 translate_btn.addEventListener("click",() =>
 {
     var userInput = input_textarea.value
+    if(userInput == ""){
+        document.querySelector("#output").innerText = "Please enter some English text to translate"
+    }else{
     constructRequestURL(userInput)
     fetch(requestUrl)
     .then(response => response.json())
     .then(data => document.querySelector("#output").innerText = data.contents.translated)
     .catch(errorHandler);
+    }
 })
 
 
